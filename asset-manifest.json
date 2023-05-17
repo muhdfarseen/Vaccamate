@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/vaccamate/static/css/main.b2092b76.css",
+    "main.js": "/vaccamate/static/js/main.553a0eb0.js",
+    "static/js/498.13afed75.chunk.js": "/vaccamate/static/js/498.13afed75.chunk.js",
+    "static/js/703.59e68f0a.chunk.js": "/vaccamate/static/js/703.59e68f0a.chunk.js",
+    "static/js/258.6ba03d84.chunk.js": "/vaccamate/static/js/258.6ba03d84.chunk.js",
+    "index.html": "/vaccamate/index.html",
+    "main.b2092b76.css.map": "/vaccamate/static/css/main.b2092b76.css.map",
+    "main.553a0eb0.js.map": "/vaccamate/static/js/main.553a0eb0.js.map",
+    "498.13afed75.chunk.js.map": "/vaccamate/static/js/498.13afed75.chunk.js.map",
+    "703.59e68f0a.chunk.js.map": "/vaccamate/static/js/703.59e68f0a.chunk.js.map",
+    "258.6ba03d84.chunk.js.map": "/vaccamate/static/js/258.6ba03d84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2092b76.css",
+    "static/js/main.553a0eb0.js"
+  ]
+}
