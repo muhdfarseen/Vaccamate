@@ -1,0 +1,21 @@
+.nav-link {
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnn {
+    margin-right: 20px;
+    border-radius: 100px;
+    padding-left:20px ;
+    padding-right:20px ;
+}
+
+.nav-link:hover{
+    color: rgb(0, 0, 0);
+}
+
+  

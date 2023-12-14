@@ -1,0 +1,106 @@
+
+.contactus{
+    display: flex;
+    gap: 80px;
+    background: #F5F4F9;
+    padding: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+
+.futhead{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    list-style: none;
+    color: #265BCF;
+    
+}
+
+.copyrytbox{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    
+    color: #FFFFFF;
+
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    background: #265BCF;
+
+}
+
+.bottonp{
+    margin: 0%;
+}
+
+@media only screen and (max-width: 767px) {
+    .contactus{
+        
+        display: flex;
+        gap: 7px;
+        background: #F5F4F9;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+        justify-content: center;
+        
+        margin-top: 30px;
+        text-decoration: none;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6px;
+        width: 100vw;
+        overflow-x: hidden;
+        
+    }
+    
+    .futhead{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 7px;
+        line-height: 5px;
+        
+        color: #265BCF;
+        
+    }
+    
+    .copyrytbox{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6px;
+        
+        color: #FFFFFF;
+    
+        height: 30px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        background: #265BCF;
+        overflow-x: hidden;
+    
+    }
+    
+    .bottonp{
+        margin: 0%;
+    }
+
+    .futlogo{
+        width: 67px;
+    }
+}

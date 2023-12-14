@@ -1,0 +1,137 @@
+.Hometop{
+    background: linear-gradient(180deg, #70C8C8 0%, #5CC2C2 14.36%, #48B7BA 31.81%, #3D7FAA 100%);
+    height: 185px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.pichead{
+    float: right;
+    padding-right: 10%;
+    
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+
+.Effortlessly{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #000000;
+}
+
+.Organize{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.loginbuttons{
+        display: flex;
+        gap: 10px;
+}
+
+.loginbtn{
+    width: 164px ;
+    height: 41px ;
+}
+
+.Section2{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.botompic{
+    width: 330px;
+    mix-blend-mode: darken;
+}
+
+@media only screen and (max-width: 767px) {
+    .Hometop{
+        visibility: hidden;
+        height: 30px;
+        width: 100vw;
+        overflow-x: hidden;
+       
+       
+    }
+    .Section2{
+        height: unset;
+        display: unset;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 200px;
+        width: 50vw;
+        margin: auto;
+        
+       
+    }
+
+    .botompic{
+        width: 60vw;
+        
+    }
+
+    .Effortlessly{
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21.6637px;
+        line-height: 26px;
+        text-align: center;
+
+        color: #000000;
+        
+    }
+
+    .Organize{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.8319px;
+        line-height: 13px;
+        text-align: center;
+        
+        color: #000000;
+        
+    }
+
+    .loginbtn{
+        width: 121.73px;
+        height: 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11.2941px;
+        border-radius: 4;
+        
+        
+    }
+
+    .loginbuttons{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}

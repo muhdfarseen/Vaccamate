@@ -1,0 +1,145 @@
+
+.body{
+   
+    overflow-x: hidden;
+    
+}
+
+.logocaption{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.0811px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+    color: #3A73F1;
+}
+
+.logoimage{
+    margin-top: 60px;
+    
+}
+
+.Fehead{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin: 0%;
+    
+    color: #3A73F1;
+}
+
+.fedesc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0%;
+    
+    /* or 45px */
+    
+    
+    color: #575757;
+}
+
+.fecont{
+    width: 790px;
+    height: 220px;
+    background: #FFFFFF;
+    border: 1px solid #4C82EC;
+    box-shadow: 0px 10px 20px rgba(57, 176, 230, 0.1);
+    border-radius: 26px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.containerfeatures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden; /* Remove horizontal overflow */
+    width: 100%;
+  }
+
+.fetimg{
+    height: 180px;
+}
+
+@media only screen and (max-width: 767px) {
+    .logoimage{
+        margin-top: 60px;
+        width: 125px;
+    }
+
+    .containerfeatures{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .logocaption{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.79467px;
+        line-height: 11px;
+        /* identical to box height */
+        
+        
+        color: #3A73F1;
+    }
+
+    .fetimg{
+        height: 63.12px;
+        width: auto;
+    }
+
+    .Fehead{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11.2208px;
+        line-height: 14px;
+        
+        color: #3A73F1;
+    }
+
+    .fedesc{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8.41558px;
+        line-height: 185.52%;
+        /* or 16px */
+        
+        
+        color: #575757;
+    }
+
+    .fecont{
+        width: 293.84px;
+        height: 77.14px;
+        background: #FFFFFF;
+        border: 1px solid #4C82EC;
+        box-shadow: 0px 3.50649px 7.01299px rgba(57, 176, 230, 0.1);
+        border-radius: 9.11688px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        gap: 20px;
+    }
+
+}
