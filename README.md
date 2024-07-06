@@ -1,6 +1,6 @@
 # Vaccamete
 
-This project is a immunization tracking web application for parents
+immunization tracking web application for parents
 
 
 
